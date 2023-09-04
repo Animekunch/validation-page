@@ -1,8 +1,8 @@
-let check = document.querySelector(".check");
-let text = document.querySelector(".text");
-let email = document.querySelector(".email");
+const check = document.querySelector(".check");
+const text = document.querySelector(".text");
+const email = document.querySelector(".email");
 
-let regex = /^[^]+\@[a-zA-Z]+\.[a-zA-Z]{2,4}$/;
+const regex = /^[^]+\@[a-zA-Z]+\.[a-zA-Z]{2,4}$/;
 
 check.addEventListener("click", () => {
   if (email.value == "") {
